@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://sifat:7ie5NWQ5dvH2vARS@test-crud.pihkg.mongodb.net/test-crud?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://<yourName>:<your_password>@test-crud.pihkg.mongodb.net/test-crud?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000, // 5 seconds timeout
